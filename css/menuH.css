@@ -31,7 +31,70 @@
 .linkItem{
     text-decoration: none;
     font-size: 14pt;
-    font-weight: 400;
+    font-weight: 500;
     color: #fff;
     padding: 0 15px;
 }
+
+.menuDireito a{
+    border: none;
+    background-color: rgb(11, 9, 88);
+    opacity: 80%;
+    padding: 8px 13px;
+    border-radius: 4px;
+    color:#fff;
+    text-decoration: none;
+}
+
+.menuBotao{
+    display: none;
+}
+
+.respMenu{
+    display: none;
+}
+
+@media screen and (max-width: 760px) {
+    .menu{
+        padding: 1.5rem 4rem;
+    }
+
+    .menuLista{
+        display: none;
+
+    }
+
+    .menuDireito{
+        display: none;
+    }
+
+    .menuBotao{
+        display: block;
+    }
+
+    .menuBotao button{
+        background-color: transparent;
+        color: aqua;
+        border: none;
+        cursor: pointer;
+    }
+
+    .respMenu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        list-style: none;
+
+    }
+
+    .respMenu .itemMenu{
+        display: block;
+        padding: 1.2rem;
+    }
+
+    .abrir{
+        display: block;
+    }
+}
+
