@@ -38,7 +38,7 @@
 
 .menuDireito a{
     border: none;
-    background-color: rgb(11, 9, 88);
+    background-color: rgb(6, 5, 42);
     opacity: 80%;
     padding: 8px 13px;
     border-radius: 4px;
@@ -74,7 +74,7 @@
 
     .menuBotao button{
         background-color: transparent;
-        color: aqua;
+        color: rgb(0, 0, 0);
         border: none;
         cursor: pointer;
     }
@@ -91,6 +91,17 @@
     .respMenu .itemMenu{
         display: block;
         padding: 1.2rem;
+    }
+
+    .respMenu .menuDireito{
+        display: block;
+        padding: 1rem 2rem;                                                       ;
+    }
+
+    .respMenu .menuDireito a{
+        text-align: center;
+        display: block;
+        width: 100%;
     }
 
     .abrir{
